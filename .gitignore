@@ -1,0 +1,54 @@
+# Created by .ignore support plugin (hsz.mobi)
+# ---> Java
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# maven
+target/
+build/
+
+# logs
+logs/
+*.log
+peiyou-api-dto/peiyou-api-dto-backend/src/
+peiyou-api-dto/peiyou-api-dto-weChat/src/
+peiyou-basics/peiyou-eureka/src/test/
+peiyou-common/peiyou-common-core/src/
+peiyou-common/peiyou-common-security/src/
+peiyou-service-api/peiyou-service-api-backend/src/
+peiyou-service-api/peiyou-service-api-weChat/src/
+peiyou-service-impl/peiyou-service-impl-information/src/
+peiyou-service-impl/peiyou-service-impl-user/src/
