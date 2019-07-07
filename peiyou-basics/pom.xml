@@ -12,7 +12,7 @@
     <artifactId>peiyou-basics</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>peiyou-eureka</module>
+        <module>peiyou-eureka-service</module>
     </modules>
 
 
