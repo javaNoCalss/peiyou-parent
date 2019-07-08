@@ -13,5 +13,10 @@
     <packaging>jar</packaging>
     <artifactId>peiyou-service-impl-user</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.peiyou</groupId>
+            <artifactId>peiyou-service-api-user</artifactId>
+        </dependency>
+    </dependencies>
 </project>

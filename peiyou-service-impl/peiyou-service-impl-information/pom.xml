@@ -13,5 +13,10 @@
     <version>1.0-SNAPSHOT</version>
     <artifactId>peiyou-service-impl-information</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.peiyou</groupId>
+            <artifactId>peiyou-service-api-information</artifactId>
+        </dependency>
+    </dependencies>
 </project>

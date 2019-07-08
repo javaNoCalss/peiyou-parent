@@ -43,12 +43,3 @@ build/
 # logs
 logs/
 *.log
-peiyou-api-dto/peiyou-api-dto-backend/src/
-peiyou-api-dto/peiyou-api-dto-weChat/src/
-peiyou-basics/peiyou-eureka/src/test/
-peiyou-common/peiyou-common-core/src/
-peiyou-common/peiyou-common-security/src/
-peiyou-service-api/peiyou-service-api-backend/src/
-peiyou-service-api/peiyou-service-api-weChat/src/
-peiyou-service-impl/peiyou-service-impl-information/src/
-peiyou-service-impl/peiyou-service-impl-user/src/

@@ -1,0 +1,24 @@
+### 服务启动端口号
+server:
+  port: 20100
+  servlet:
+    context-path: /api-backend
+
+###服务名称(注册到eureka的名称)
+spring:
+  application:
+    name: peiyou-api-backend
+
+###服务注册到eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+###swagger
+swagger:
+  base-package: com.peiyou.client
+  title: 培优小课堂-后台管理系统
+  description: 该项目提供给培优小课堂的后台管理系统调用
+  version: 1.0
+

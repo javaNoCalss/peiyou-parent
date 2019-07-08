@@ -22,20 +22,40 @@
     <modules>
         <module>peiyou-service-api-weChat</module>
         <module>peiyou-service-api-backend</module>
+        <module>peiyou-service-api-user</module>
+        <module>peiyou-service-api-information</module>
     </modules>
+
+    <dependencies>
+        <!-- swagger-spring-boot -->
+        <!--        <dependency>
+                    <groupId>io.github.wilson-he</groupId>
+                    <artifactId>swagger2-spring-boot-starter</artifactId>
+                    <version>1.0.3.RELEASE</version>
+                </dependency>-->
+
+        <!-- swagger-spring-boot -->
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.8.0.RELEASE</version>
+        </dependency>
+    </dependencies>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.peiyou</groupId>
-                <artifactId>peiyou-api-dto-weChat</artifactId>
-                <version>${peiyou-api-dto-weChat.version}</version>
-            </dependency>
             <dependency>
                 <groupId>com.peiyou</groupId>
                 <artifactId>peiyou-api-dto-backend</artifactId>
                 <version>${peiyou-api-dto-backend.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-api-dto-weChat</artifactId>
+                <version>${peiyou-api-dto-weChat.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
+
+
 </project>

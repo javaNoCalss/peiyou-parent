@@ -11,13 +11,13 @@
     <groupId>com.peiyou</groupId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <artifactId>peiyou-service-api-backend</artifactId>
+    <artifactId>peiyou-service-api-user</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.peiyou</groupId>
-            <artifactId>peiyou-api-dto-backend</artifactId>
+            <artifactId>peiyou-service-impl-information</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 </project>

@@ -17,5 +17,44 @@
         <module>peiyou-service-impl-information</module>
     </modules>
 
+    <properties>
+        <peiyou-api-dto-weChat.version>1.0-SNAPSHOT</peiyou-api-dto-weChat.version>
+        <peiyou-api-dto-backend.version>1.0-SNAPSHOT</peiyou-api-dto-backend.version>
+        <peiyou-service-api-information.version>1.0-SNAPSHOT</peiyou-service-api-information.version>
+        <peiyou-service-api-user.version>1.0-SNAPSHOT</peiyou-service-api-user.version>
+    </properties>
+    <dependencies>
+        <!-- springcloud feign组件 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-api-dto-weChat</artifactId>
+                <version>${peiyou-api-dto-weChat.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-api-dto-backend</artifactId>
+                <version>${peiyou-api-dto-backend.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-service-api-information</artifactId>
+                <version>${peiyou-service-api-information.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-service-api-user</artifactId>
+                <version>${peiyou-service-api-user.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
 </project>

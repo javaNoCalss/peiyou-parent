@@ -1,0 +1,14 @@
+### 服务启动端口号
+server:
+  port: 10200
+
+###服务名称(注册到eureka的名称)
+spring:
+  application:
+    name: peiyou-service-information
+
+###服务注册到eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
