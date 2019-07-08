@@ -8,13 +8,34 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.peiyou</groupId>
     <artifactId>peiyou-service-api</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <properties>
+        <skipTests>true</skipTests>
+        <peiyou-api-dto-backend.version>1.0-SNAPSHOT</peiyou-api-dto-backend.version>
+        <peiyou-api-dto-weChat.version>1.0-SNAPSHOT</peiyou-api-dto-weChat.version>
+    </properties>
+
     <modules>
         <module>peiyou-service-api-weChat</module>
         <module>peiyou-service-api-backend</module>
     </modules>
-
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-api-dto-weChat</artifactId>
+                <version>${peiyou-api-dto-weChat.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.peiyou</groupId>
+                <artifactId>peiyou-api-dto-backend</artifactId>
+                <version>${peiyou-api-dto-backend.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
 </project>

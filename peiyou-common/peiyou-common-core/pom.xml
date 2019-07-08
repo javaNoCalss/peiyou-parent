@@ -8,7 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.peiyou</groupId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
     <artifactId>peiyou-common-core</artifactId>
 
 

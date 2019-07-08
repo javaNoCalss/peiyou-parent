@@ -8,8 +8,15 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.peiyou</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <artifactId>peiyou-service-api-weChat</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.peiyou</groupId>
+            <artifactId>peiyou-api-dto-weChat</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

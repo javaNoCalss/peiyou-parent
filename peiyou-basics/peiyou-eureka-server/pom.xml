@@ -8,8 +8,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.peiyou</groupId>
+    <artifactId>peiyou-eureka-server</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    <artifactId>peiyou-eureka</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
