@@ -18,6 +18,10 @@
             <groupId>com.peiyou</groupId>
             <artifactId>peiyou-api-dto-backend</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.peiyou</groupId>
+            <artifactId>peiyou-api-dto-weChat</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

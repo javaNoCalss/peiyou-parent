@@ -18,5 +18,9 @@
             <groupId>com.peiyou</groupId>
             <artifactId>peiyou-service-api-information</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.peiyou</groupId>
+            <artifactId>peiyou-service-api-backend</artifactId>
+        </dependency>
     </dependencies>
 </project>
