@@ -14,6 +14,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    metadata-map:
+      context-path: ${server.servlet.context-path}
+      health-check-url: http://localhost:${server.port}/gateway/actuator/health
+      status-page-url: http://localhost:${server.port}/gateway/actuator/info
+      home-page-url: http://localhost:${server.port}/
 
 
 ###swagger

@@ -1,14 +1,13 @@
 package com.peiyou.client;
 
-import com.peiyou.TestDto;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Api(tags = "测试接口")
-public interface TestClient {
+@Api(tags = "资料服务测试")
+public interface TestClient2 {
 
-    @ApiOperation("测试")
-    @GetMapping("/test2")
-    TestDto test();
+    @ApiOperation("资料服务测试")
+    @GetMapping("test")
+    void test();
 }
